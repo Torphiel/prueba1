@@ -33,7 +33,7 @@ st.markdown("---")
 def cargar_datos():
     """Carga y procesa los datos de AENA"""
     try:
-        df = pd.read_excel('Data_licitaciones/2024_AENA.xlsx')
+        df = pd.read_excel('2024_AENA.xlsx')
         
         # Limpiar y procesar datos
         # Usar el nombre exacto de la columna
